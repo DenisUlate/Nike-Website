@@ -1,0 +1,63 @@
+/** Fade Left to Right Animation */
+@keyframes fadeLeftToRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-left-to-right {
+  animation: fadeLeftToRight 1s ease-in-out;
+}
+
+/** Fade Right to Left Animation */
+@keyframes fadeRightToLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-right-to-left {
+  animation: fadeRightToLeft 1s ease-in-out;
+}
+
+/** Fade Up to Down Animation  */
+@keyframes fadeUpToDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up-to-down {
+  animation: fadeUpToDown 1s ease-in-out;
+}
+
+/**Fade Down to Up Animation:  */
+@keyframes fadeDownToUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-down-to-up {
+  animation: fadeDownToUp 1s ease-in-out;
+}
